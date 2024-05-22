@@ -1,0 +1,45 @@
+/* Diseño de Nav */
+
+.nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-link:hover {
+    background-color: var(--nav-link-hover-bg, #343a40);
+    color: var(--nav-link-hover-color, #ffffff);
+}
+.sidebar {
+    top: 0;
+    position: sticky;
+}
+
+/* Diseño de Main */
+
+:root {
+    --main-bg: #222;
+    --card-header-bg: #333;
+    --list-item-alt-bg: #333;
+    --card-bg: #2b3035;
+}
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-link:hover {
+    background-color: var(--nav-link-hover-bg, #343a40);
+    color: var(--nav-link-hover-color, #ffffff);
+}
+.sidebar-sticky {
+    top: 0;
+    position: sticky;
+}
+
+/* Offcanvas styles */
+.offcanvas-body .nav-link {
+    color: var(--nav-link-color, #000);
+}
